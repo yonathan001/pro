@@ -12,3 +12,4 @@ function calculateTax(income: number): number {
     return 0;
     // return "a"; number is not assignable to type string
 }
+
