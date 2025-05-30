@@ -13,3 +13,7 @@ function calculateTax(income: number): number {
     // return "a"; number is not assignable to type string
 }
 
+function calculateDiscount(price: number, discountPercent: number): number {
+    return price * (1 - discountPercent / 100);
+}
+
